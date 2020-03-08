@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap');
+
+html {
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body {
+    max-width: 1440px;
+    height: 5046px;
+    margin: auto;
+    font-family: 'Raleway';
+    font-size: 20px;
+    line-height: 1.6;    
+    background-color: #ffffff;
+}
+
+.header {
+    width: 1440px;
+    height: 138px;
+}
+
+.container{
+    height: 138px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    height: 138px;
+}
+
+.LogoWithImg {
+    display: flex;
+    justify-content: space-between;     
+    margin-top: 43px;
+    margin-left: 40px;
+}
+
+.navigation{
+    margin-top: 42px;
+    margin-right: 40px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navlink {
+    margin: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #143C6B;
+    transition: color 0.2s linear;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navlink:hover {
+    color: blue;
+}
+
+#line {
+    height: 44px;
+    width: 2px;
+    background-color: #ACCCF1;
+    margin-top: 3px;
+
+}
+.headerIner {
+    height: 138px;
+}
+
+.logoText {
+    font-family: 'Raleway';
+    font-weight: bolder;
+    font-size: 42px;
+    font-style: normal;    
+    line-height: 49px;
+    margin-left: 15px;
+    letter-spacing: 0.065em;
+    color: #143C6B;    
+    display: inline-block;
+}
+
+#LogoRec {
+    height: 50px;
+    width: 50px;
+    background:linear-gradient(147.38deg, #447EC1 10.93%, #143C6B 72.7%);
+    border-radius: 4px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section {
+    background-image: url('../images/Rectangle2.jpg');
+    background-size: contain;
+    width: 1440px;
+    height: 510px;
+    
+}
+
+.containerC{     
+    background: rgba(255, 255, 255, 0.4); 
+    text-align: right;    
+    width: 1440px;
+    height: 510px;
+
+}
+
+.backgroundText {
+    position: absolute;
+    margin-left: 135px;
+    text-align: left;
+    margin-top: 75px;
+    width: 798px;
+    font-style: normal;
+    font-size: 52px;
+    font-weight: 800;
+    font-family:'Montserrat';
+    line-height: 138%;
+    letter-spacing: 0.01em;
+
+}
+
+.backimage {
+    position: relative;
+    margin-right: 40px;
+}
+
+.backgoundLink {
+    
+    position: absolute;
+    text-align: left;
+    padding-left: 728px;
+    padding-top: 453px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 166.4%;
+    letter-spacing: 0.07em;
+}
+
+.textCont {
+    padding-left: 290px;
+    padding-right: 290px;
+    margin-top: 41px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 166.4%;
+    letter-spacing: 0.01em;
+    color: #212121;
+}
+
+.secondBackGround {
+    background-image: url('../images/Rectangle1.jpg');
+    background-size: contain;
+    width: 1440px;
+    height: 300px;
+    margin-top: 41px;
+}
+
+
+.thirdBackGround {
+    background-image: url('../images/Rectangle3.jpg');
+    background-size: contain;
+    width: 1440px;
+    height: 160px;
+    margin-top: 41px;
+}
+
+.gradientBackGround {
+    height: 824px;
+    width: 1440px;
+    background: linear-gradient(180deg, #102D66 0%, #360842 100%);
+    margin-top: 40px;
+}
+
+.textGradient {
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 166.4%;
+    letter-spacing: 0.01em;
+    width: 861px;
+    padding-left: 290px;
+    padding-top: 50px;
+}
+
+.leftImg{
+    position: absolute;
+    float: left;
+}
+
+.rightImg{
+    position: absolute;
+    float: left;
+}
+
+#imgg1 {
+    position: absolute;
+    margin-top: 142px;
+}
+
+
+#imgg2 {    
+    object-position: absolute;
+    margin-top: 192px;
+    margin-left: 1184px;
+}
+
+#imgg3 {
+    object-position: absolute;
+    margin-top: 420px;
+}
+
+
+#imgg4 {
+    object-position: absolute;
+    margin-left: 1128px;
+    margin-top: 28px;
+}
+
+
+#imgg5 {
+    object-position: absolute;
+    margin-top: 35px;
+}
+
+.autorizationSection {
+    padding-top: 36px;
+    position: absolute;
+    text-align: center;
+    width: 600px;
+    height: 563px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #ffffff;
+    margin-left: 420px;
+    margin-right: 420px;
+    margin-top: 194px;
+}
+
+#autoP {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 166.4%;
+    letter-spacing: 0.01em;
+}
+
+.inputSection {
+    text-align: left;
+    padding-left: 120px;
+    padding-top: 4px;    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 166.4%;
+    letter-spacing: 0.01em;
+}
+
+.textOnTop {
+    padding-top: 29px;
+    padding-bottom: 8px;
+}
+
+
+
+.button {
+    background-color: #4FDB4D;
+    border: none;
+    color: black;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 29px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 360px;
+    height: 64px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+    transition: color 0.2s linear;
+    letter-spacing: 0.07em;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 166.4%;
+}
+
+
+.button:hover {
+    color: white;
+}
+
+.input {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    width: 360px;
+    height: 54px;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 166.4%;
+    letter-spacing: 0.07em;
+    padding-left: 20px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+.input[type="text"]::-webkit-input-placeholder {
+    color: #C6C6C6;
+}
+
+#phoneCode {
+    font-family: Montserrat;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    width: 119px;
+    height: 54px;    
+    border-radius: 4px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 166.4%;
+    letter-spacing: 0.07em;
+    padding-left: 20px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+
+.inputNumber {
+    font-family: Montserrat;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    width: 227px;
+    height: 54px;
+    margin-left: 14px;
+    border-radius: 4px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 166.4%;
+    letter-spacing: 0.07em;
+    padding-left: 20px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+.inputNumber[type="text"]::-webkit-input-placeholder {
+    color: #C6C6C6;
+}
+
+.comentsBlock {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 166.4%;
+    letter-spacing: 0.07em;
+    padding: 49px 290px 0 290px;
+}
+
+.outerComent {
+    background: #E9F4F8;
+    padding: 23px 38px 24px 102px;
+    margin-bottom: 20px;
+}
+
+.personName {
+    padding-bottom: 7px;
+}
+
+
+.bottomClosed {
+    background: #102D66;
+    height: 154px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logoTextBotom {
+    font-family: 'Raleway';
+    font-weight: bolder;
+    font-size: 42px;
+    font-style: normal;    
+    line-height: 49px;
+    margin-left: 15px;
+    letter-spacing: 0.065em;
+    color: white;
+    
+    display: inline-block;
+}
+
+.aboveLogo {
+    padding-top: 52px;
+}
+
+.commentImage {
+    position: absolute;
+    margin-top: 23px;
+    margin-left: 25px;
+}
+
+.personLeaveTime {
+    position: absolute;
+    margin-top: 5px;
+    margin-right: 25px;
+    margin-left: 750px;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
